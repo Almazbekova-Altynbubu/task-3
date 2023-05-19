@@ -1,0 +1,80 @@
+.header{
+    /* background-color: bisque; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flexbox;
+    align-items: center;
+}
+.menu a{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 19px;
+
+color: #202336;
+padding: 0 15px;
+text-decoration: none;
+}
+.menu a:hover{
+    color:#FB8F1D;
+    text-decoration-line: underline;
+}
+.singIn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.singIn Button{
+padding: 9px 20px;
+border: 1px solid #FB8F1D;
+border-radius: 8px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+background-color: white;
+
+display: flex;
+align-items: center;
+
+color: #FB8F1D;
+
+mix-blend-mode: normal;
+    margin: 0 12px;
+
+}
+.singIn Button:hover{
+    padding: 9px 20px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    font-style: normal;
+font-weight: 500;
+font-size: 15px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+mix-blend-mode: normal;
+transform: scale(1.1);
+
+}
+.logo {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo h1{
+    font-family: 'Inter';
+    font-size: 25px;
+    color: #FB8F1D;
+    font-style:normal;
+font-weight: 800;
+}
+img{
+    width: 60px;
+    height: 40px;
+
+}

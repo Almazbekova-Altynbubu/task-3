@@ -1,0 +1,32 @@
+.ButtonLogOut Button{
+    padding: 9px 20px;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FB8F1D;
+    
+    mix-blend-mode: normal;
+        margin: 0 12px;
+    
+    }
+    .ButtonLogOut Button:hover{
+        padding: 9px 20px;
+        background: #FB8F1D;
+        border-radius: 8px;
+        font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    transform: scale(1.1);
+    
+    }
